@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import numpy as np
 np_matmul = __import__('14-saddle_up').np_matmul
+import numpy as np
 def np_matmul(mat1, mat2):
     return np.matmul(mat1,mat2)
 mat1 = np.array([[11, 22, 33], [44, 55, 66]])
