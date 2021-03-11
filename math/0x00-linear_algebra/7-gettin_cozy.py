@@ -1,4 +1,3 @@
-alexa@ubuntu-xenial:0x00-linear_algebra$ cat 7-main.py 
 #!/usr/bin/env python3
 
 cat_matrices2D = __import__('7-gettin_cozy').cat_matrices2D
@@ -25,10 +24,3 @@ mat1[1].append(5)
 print(mat1)
 print(mat4)
 print(mat5)
-alexa@ubuntu-xenial:0x00-linear_algebra$ ./7-main.py 
-[[1, 2], [3, 4], [5, 6]]
-[[1, 2, 7], [3, 4, 8]]
-[[9, 10], [3, 4, 5]]
-[[1, 2], [3, 4], [5, 6]]
-[[1, 2, 7], [3, 4, 8]]
-alexa@ubuntu-xenial:0x00-linear_algebra$ 
