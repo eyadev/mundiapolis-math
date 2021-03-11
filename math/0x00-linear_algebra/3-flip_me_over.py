@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-
+import numpy as np
 def matrix_transpose(matrix):
-    for i in range(len(matrix)):
-        for j in range(len(matrix[0])):
-            result[j][i] = matrix[i][j]
-            return result
+    array = np.transpose(matrix)
+    return array.tolist()
