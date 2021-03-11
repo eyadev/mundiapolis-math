@@ -1,4 +1,3 @@
-alexa@ubuntu-xenial:0x00-linear_algebra$ cat 101-main.py
 # !/usr/bin/env python3
 
 add_matrices = __import__('101-the_whole_barn').add_matrices
@@ -34,9 +33,3 @@ mat3 = [[[[11, 12, 13, 14], [15, 16, 17, 18]],
          [[141, 142, 143, 144], [145, 146, 147, 148]]]]
 print(add_matrices(mat1, mat2))
 print(add_matrices(mat1, mat3))
-alexa@ubuntu-xenial:0x00-linear_algebra$ ./101-main.py
-[5, 7, 9]
-[[6, 8], [10, 12]]
-[[[[12, 14, 16, 18], [20, 22, 24, 26]], [[28, 120, 122, 124], [126, 128, 130, 132]], [[134, 136, 138, 140], [142, 144, 146, 148]]], [[[150, 152, 154, 156], [158, 160, 162, 164]], [[166, 168, 170, 172], [174, 176, 178, 180]], [[182, 184, 186, 188], [190, 192, 194, 196]]]]
-None
-alexa@ubuntu-xenial:0x00-linear_algebra$ 
