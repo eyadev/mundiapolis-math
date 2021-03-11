@@ -1,4 +1,3 @@
-alexa@ubuntu-xenial:0x00-linear_algebra$ cat 10-main.py 
 #!/usr/bin/env python3
 
 import numpy as np
@@ -12,8 +11,3 @@ mat3 = np.array([[[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]],
 print(np_shape(mat1))
 print(np_shape(mat2))
 print(np_shape(mat3))
-alexa@ubuntu-xenial:0x00-linear_algebra$ ./10-main.py 
-(6,)
-(0,)
-(2, 2, 5)
-alexa@ubuntu-xenial:0x00-linear_algebra$
