@@ -1,10 +1,23 @@
-# !/usr/bin/env python3
-
-import numpy as np
-def add_matrices(mat1, mat2):
-    if(np.shape(mat1) == np.shape(mat2)):
-        array=np.add(mat1,mat2)
-        return array.tolist()
+def matrix_shape(matrix):
+    if type(matrix[0]) is not list:
+        return [len(matrix)]
     else:
-        return "None"
+        return [len(matrix)] + matrix_shape(matrix[0])
 
+
+def add_recursive(mat1, mat2):
+    if type(mat1[0]) is not list:
+        return [mat1[i] + mat2[i] for i in range(len(mat1))]
+    else:
+        result = []
+        for i in range(len(mat1)):
+            inner = add_recursive(mat1[i], mat2[i])
+            result.append(inner)
+        return result
+
+
+def add_matrices(mat1, mat2):
+    if matrix_shape(mat1) != matrix_shape(mat2):
+        return None
+    else:
+        return add_recursive(mat1, mat2)
