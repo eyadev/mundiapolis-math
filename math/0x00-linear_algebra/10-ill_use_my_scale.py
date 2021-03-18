@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-
-import numpy as np
+'''
+calculate the shape of a matrix using numpy
+'''
 def np_shape(matrix):
     return matrix.shape
-
