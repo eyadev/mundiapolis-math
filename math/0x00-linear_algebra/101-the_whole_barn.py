@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+'''
+addition of 2 matrices
+'''
 def matrix_shape(matrix):
     if type(matrix[0]) is not list:
         return [len(matrix)]
