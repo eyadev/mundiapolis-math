@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-
-import numpy as np
-np_transpose = __import__('11-the_western_exchange').np_transpose
+'''
+return the transpose of a matrix using numpy
+'''
 def np_transpose(matrix):
-    return np.transpose(matrix)
+    return matrx.transpose()
