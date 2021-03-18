@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+'''
+multiply matrices with slices
+'''
 def np_slice(matrix, axes={}):
     sliced = []
     max_key = max(axes)
