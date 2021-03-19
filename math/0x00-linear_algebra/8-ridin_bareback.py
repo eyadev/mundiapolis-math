@@ -3,6 +3,7 @@
 function that multiply 2 matrices
 """
 
+
 def mat_mul(mat1, mat2):
     if len(mat1[0]) == len(mat2):
         new_mat = []
