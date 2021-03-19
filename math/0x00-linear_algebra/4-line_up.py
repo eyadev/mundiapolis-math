@@ -2,6 +2,8 @@
 '''
 function that calculate the sum of 2 arrays
 '''
+
+
 def add_arrays(arr1, arr2):
     if len(arr1) != len(arr2):
         return "None"
